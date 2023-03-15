@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    overflow-x: hidden;
+}
+
+@layer utilities {
+    .repeat_bg_mobile {
+        background-size: 1500px;
+    }
+    .repeat_bg_desktop {
+        background-size: 2000px;
+    }
+}
+
+@font-face {
+    font-family: 'D3';
+    src: url('/fonts/D3/D3-LiteBitMapism-Bold.ttf.woff') format('woff'),
+        url('/fonts/D3/D3-LiteBitMapism-Bold.ttf.svg#D3-LiteBitMapism-Bold') format('svg'),
+        url('/fonts/D3/D3-LiteBitMapism-Bold.ttf.eot'),
+        url('/fonts/D3/D3-LiteBitMapism-Bold.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'A3';
+    src: url('/fonts/A3/aAtmospheric.otf') format('otf'),
+         url('/fonts/A3/aAtmospheric.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'H3';
+    src: url('/fonts/H3/HyperionRegular.otf') format('otf'),
+         url('/fonts/H3/HyperionRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
